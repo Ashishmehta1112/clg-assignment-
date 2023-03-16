@@ -27,12 +27,18 @@ int main()
 int b=0;
    int a ;
 scanf("%d",&a);
-for (int i=1;i<=a;i++)
+printf("Fibonacci series is ");
+for (int i=1;i<=a-1;i++)
 {
   b++;
+int  Fibonacci =f(b);
+printf(" %d,", Fibonacci);
 }
- int Fibonacci= f(b);
-printf(" Fibonacci series is %d", Fibonacci);
+int Fibonacci=f(a);
+printf("%d", Fibonacci);
+
+ 
+
 
  
 return 0;
