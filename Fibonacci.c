@@ -37,10 +37,6 @@ printf(" %d,", Fibonacci);
 int Fibonacci=f(a);
 printf("%d", Fibonacci);
 
- 
-
-
- 
 return 0;
 
 }
