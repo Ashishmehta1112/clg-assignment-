@@ -18,7 +18,7 @@ return 0;}
 
 
 int main(){
-int n,i;
+int n;
 
 printf("how much size array you want for traversal");
 scanf("%d",&n);
